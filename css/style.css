@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.eot');
+    src: url('../fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+    url('../fonts/roboto-regular-webfont.woff') format('woff'),
+    url('../fonts/roboto-regular-webfont.ttf') format('truetype'),
+    url('../fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/roboto-bold-webfont.eot');
+    src: url('../fonts/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+    url('../fonts/roboto-bold-webfont.woff') format('woff'),
+    url('../fonts/roboto-bold-webfont.ttf') format('truetype'),
+    url('../fonts/roboto-bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+    /*Header*/
+header .logo {
+    position: absolute;
+    left: calc(50% - 40px);
+    top: 16px;
+}
+
+header .container {
+    max-width: 1064px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container a img {
+    padding-bottom: 16px;
+}
+
+.container ul {
+    display: flex;
+    list-style: none;
+}
+
+.container ul img {
+    margin-left: 15px;
+}
+
+.insta {
+    margin-top: 10px;
+}
+
+.header_thalby li a {
+    text-decoration: none;
+    margin-right: 28px;
+    font-family: 'robotobold';
+    font-size: 16px;
+    line-height: 26px;
+    color: #1C1B1B;
+}
+    /*Fall deeper in love with*/
+.main_banner {
+    position: relative;
+    background: #F0EFEB;
+    padding-top: 90px;
+    padding-bottom: 99px;
+}
+
+.main_banner .container {
+    max-width: 1064px;
+    margin: auto;
+
+}
+
+.main_banner .container img {
+    position: absolute;
+    top: 9px;
+    right: 60px;
+    margin-top: 18px;
+}
+
+.main_banner .container h1 {
+    max-width: 534px;
+    margin-bottom: 42px;
+    font-family: 'robotobold';
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.main_banner .container p {
+    font-family: 'robotoregular';
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 33px;
+    max-width: 481px;
+}
+
+.main_banner .container a {
+    text-decoration: none;
+    font-family: 'robotoregular';
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    padding: 7px 23px 9px;
+    box-sizing: border-box;
+}
+        /*Our guides explain*/
+.our_guides {
+    background-color: #FFFFFF;
+    padding-top: 60px;
+    padding-bottom: 88px;
+}
+.countries {
+    max-width: 632px;
+    margin: auto;
+}
+.countries h2 {
+    font-family: 'robotobold';
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 27px;
+}
+
+.countries p {
+    font-family: 'robotoregular';
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.curious {
+    max-width: 632px;
+    margin: auto;
+    margin-bottom: 47px;
+}
+
