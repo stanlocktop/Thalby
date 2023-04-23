@@ -27,45 +27,54 @@
     box-sizing: border-box;
 }
     /*Header*/
-header .logo {
+header .logo{
     position: absolute;
     left: calc(50% - 40px);
     top: 16px;
 }
-
-header .container {
+header .container{
     max-width: 1064px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
-
-header .container a img {
-    padding-bottom: 16px;
-}
-
-.container ul {
-    display: flex;
-    list-style: none;
-}
-
-.container ul img {
-    margin-left: 15px;
-}
-
-.insta {
-    margin-top: 10px;
-}
-
-.header_thalby li a {
-    text-decoration: none;
-    margin-right: 28px;
-    font-family: 'robotobold';
+header nav a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
     font-size: 16px;
     line-height: 26px;
     color: #1C1B1B;
+    text-decoration: none;
 }
+header .container ul{
+    display: flex;
+    align-items: center;
+}
+header nav li{
+    margin-right: 28px;
+}
+header .logos li{
+    margin-right: 14px;
+}
+header .logos li:first-of-type{
+    margin-right: 22px;
+}
+header .logos img{
+    width: 40px;
+    height: 40px;
+}
+header .logos li:first-of-type img{
+    width: 25px;
+    height: 25px;
+}
+header li:hover{
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+
     /*Fall deeper in love with*/
 .main_banner {
     position: relative;
@@ -150,4 +159,105 @@ header .container a img {
     margin: auto;
     margin-bottom: 47px;
 }
-
+        /*Our best sellers*/
+.best_sellers{
+    padding-bottom: 248px;
+    padding-top: 41px;
+}
+.best_sellers .container{
+    max-width: 1064px;
+    margin: auto;
+}
+.best_sellers h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 52px;
+}
+.best_sellers .sellers{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.best_sellers .sellers article{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.best_sellers article p:first-of-type{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    max-width: 164px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 17px;
+}
+.best_sellers article p:last-of-type{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.best_sellers article a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+    display: inline-block;
+}
+.best_sellers .owl-nav{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+.best_sellers .owl-nav .owl-prev{
+    position: absolute;
+    top: 35%;
+    left: -55px;
+    width: 50px;
+    height: 50px;
+}
+.best_sellers .owl-nav .owl-prev:before{
+    content: "\f053";
+    color: black;
+}
+.best_sellers .owl-nav .owl-next{
+    position: absolute;
+    right: -55px;
+    top: 35%;
+    width: 50px;
+    height: 50px;
+}
+.best_sellers .owl-nav .owl-next:before{
+    color: black;
+    content: "\f054";
+}
+.owl-dots{
+    position: absolute;
+    left: 479px;
+    bottom: -50px;
+}
+.owl-dots .owl-dot span{
+    background: black!important;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.owl-dots .owl-dot.active span{
+    background-color: cornflowerblue!important;
+    border: solid 3px black;
+}
